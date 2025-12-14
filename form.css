@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Bungee&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+US+Trad+Guides&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Bungee&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playwrite+US+Trad+Guides&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #a8a79e;
+}
+body{
+  overflow: hidden; 
+}
+
+.container{
+   width: 1000px; 
+   height: 530px;
+   background-color: white;
+   margin: 5vh auto;
+   position: relative;
+}
+
+.card{
+  width:330px ; 
+  height: 510px;
+  background-color: #193cd4;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card .code{
+   color: white;
+   background: transparent;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+ font-family: sans-serif;
+ font-size: 12px;
+}
+
+.card h1{
+background: transparent;
+position: absolute;
+top: 95px;
+color:white;
+font-size:21px ;
+left: 12px;
+ font-family: "Lobster Two", sans-serif;
+
+}
+
+.card p{
+background: transparent;
+position: absolute;
+top: 190px;
+color:white;
+font-family: sans-serif;
+font-size:12px ;
+left: 10px;
+}
+
+.card .about{
+position: absolute;
+top: 290px;
+background-color:#2b4eec;
+margin-left: 10px;
+font-size:12px ;
+margin-right: 12px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+color: white;
+font-family: sans-serif;
+padding-top: 10px;
+}
+
+.card .about img{
+width: 80px;
+height: 60px;
+border-radius: 8px;
+margin-top: 15px;
+margin-left: 10px;
+margin-bottom: 9px;
+}
+
+.about .text{
+padding-top: 10px;
+margin-left: 10px;
+background-color:#2b4eec;
+
+}
+ 
+.about .text2{
+margin-top: 10px;
+margin-left: 10px;
+background-color:#2b4eec;
+}
+
+.card h4{
+background-color:#2b4eec ;
+position: absolute;
+left: 100px;
+top: 55px;
+font-size: 14px;
+}
+
+.card h3{
+background-color:#2b4eec ;
+position: absolute;
+left: 110px;
+top:80px;
+font-size: 16px;
+}
+
+.sign h1{
+   position: absolute;
+left: 600px;
+bottom: 460px;
+background-color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 40px;
+}
+
+.sign h5{
+   position: absolute;
+left: 583px;
+bottom: 440px;
+background-color: white;
+font-size: 15px;
+font-weight: 100;
+font-family: sans-serif;
+}
+.sign h5 a{
+   background-color: white;
+   color: #193cd4;
+   text-decoration: none;
+}
+
+.sign .look{
+   position: absolute;
+left: 400px;
+bottom: 400px;
+background-color: white;
+font-size: 15px;
+font-weight: 100;
+font-family: sans-serif;
+}
+
+.lab .pro{
+  position: absolute;
+left: 395px;
+bottom: 354px;
+width: 30px;
+}
+
+.lab .pro2{
+  position: absolute;
+left: 430px;
+bottom: 350px;
+ background-color: white;
+font-size: 20px;
+font-family: sans-serif;
+}
+
+.lab2 .pro1{
+ position: absolute;
+left: 610px;
+bottom: 354px;
+width: 30px;
+}
+
+.lab2 .pro3{
+ position: absolute;
+left: 645px;
+bottom: 350px;
+ background-color: white;
+font-size: 20px;
+font-family: sans-serif;
+}
+
+.label{
+ position: absolute;
+left: 500px;
+bottom: 280px;
+border: none;
+background-color: transparent;
+
+}
+
+.label input{
+background-color: white;
+padding-left: 90px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 30px;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border: none;
+}
+
+.label label{
+   position: absolute;
+left: -90px;
+background-color: white;
+font-size: 20px;
+font-family: sans-serif;
+top: 7px;
+}
+
+.label2 label{
+ position: absolute;
+left: -110px;
+background-color: white;
+font-size: 20px;
+font-family: sans-serif;
+top: 9px;
+}
+.label2{
+ position: absolute;
+left: 500px;
+bottom: 210px;
+border: none;
+background-color: transparent;
+
+}
+.label2 input{
+background-color: white;
+padding-left: 90px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 30px;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border: none;
+}
+
+.label3{
+ position: absolute;
+left: 570px;
+bottom: 140px;
+border: none;
+background-color: transparent;
+
+}
+
+.label3 input{
+background-color: white;
+padding-left: 90px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 30px;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border: none;
+}
+
+.label3 label{
+   position: absolute;
+left: -200px;
+background-color: white;
+font-size: 19px;
+font-family: sans-serif;
+top: 7px;
+}
+
+button{
+background-color: #193cd4;
+color: white;
+font-size: 13px;
+ padding: 10px 80px;
+border-radius: 7px;
+border: none;
+cursor: pointer;
+font-weight: 600;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+z-index: 2;
+position: absolute;
+left: 500px;
+bottom: 60px;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: #193cd4 0px 5px 15px;
+  
+}
+
+
+
+@media (max-width:749px){
+.container{
+margin-left: 10px;
+ max-width: 600px;
+}
+
+.card{
+ width: 200px; 
+   transition: all 0.2sec ease-in-out;
+  
+}
+}
+@media (max-width:740px){
+   .sign h1{
+      left: 300px;
+      font-size: 30px;
+   }
+    .sign h5{
+     left: 290px;
+     font-size: 12px;
+   }
+.sign .look{
+left: 250px;
+font-size: 14px;
+}
+.lab .pro{
+   left: 240px;
+}
+.lab .pro2{
+   left: 270px;
+   font-size: 17px;
+}
+.lab2 .pro1{
+ left: 420px;
+}
+.lab2 .pro3{
+ left: 450px; 
+  font-size: 17px;
+}
+.label{
+   left: 300px;
+}
+.label label{
+   left: -70px;
+   font-size: 18px;
+}
+.label2{
+   left: 320px;
+  
+}
+.label2 label{
+   font-size: 18px;
+   left: -100px;
+}
+.label2 input{
+padding-left: 80px;
+padding-bottom: 8px;
+padding-right: 30px;
+
+}
+.label3{
+left: 370px;
+  
+}
+.label3 label{
+  left: -150px;
+  font-size: 15px;
+}
+.label3 input{
+padding-left: 50px;
+padding-right: 1px;
+}
+button{
+   left: 300px;
+    padding: 10px 60px;
+   transition: all 0.3sec ease-in-out;
+}
+.about .text{
+   padding-top: 0px;
+}
+.card .about img{
+   margin-left: -29px;
+}
+.card h4{
+   top: 70px;
+font-size: 12px;
+}
+.card h3{
+   top:100px;
+font-size: 14px;
+}
+}
+@media (max-width:415px){
+   .card{
+ width:300px ; 
+  height: 189px;
+    left: 0px;
+      top: 0px;
+ }
+ .card .code{
+    top: 3px;
+    font-size: 10px;
+ }
+ .card h1{
+   top: 10px;
+   font-size:18px;
+ }
+ .card p{
+   top: 30px;
+   font-size:10px ;
+ }
+ .card .about{
+   top: 55px;
+ }
+ .container{
+ max-width: 300px;
+  min-height: 590px;
+ margin-top: 1px;
+ margin-left: 0;
+}
+ .sign h1{
+      left: 110px;
+      bottom: 375px;
+      font-size: 18px;
+   }
+    .sign h5{
+     left: 100px;
+     bottom: 365px;
+     font-size: 10px;
+   }
+.sign .look{
+left: 10px;
+bottom: 340px;
+font-size: 14px;
+}
+.lab .pro{
+   left: 17px;
+   bottom: 313px;
+width: 15px;
+}
+.lab .pro2{
+  left: 40px;
+  bottom: 313px;
+  font-size: 15px;
+}
+.lab2 .pro1{
+  left: 150px;
+   bottom: 315px;
+width: 15px;
+}
+.lab2 .pro3{
+ left: 170px;
+  bottom: 313px;
+  font-size: 15px;
+}
+.label{
+  left: 60px;
+  bottom: 260px;
+}
+.label label{
+   left: -50px;
+   font-size: 16px;
+   top: 8px;
+}
+.label input{
+padding-left: 50px;
+padding-top: 8px;
+padding-right: 0px;
+
+}
+.label2{
+  left: 75px;
+  bottom: 200px;
+  
+}
+.label2 label{
+ left: -75px;
+   font-size: 16px;
+   top: 8px;
+}
+.label2 input{
+padding-left: 40px;
+padding-top: 8px;
+padding-right: 0px;
+
+}
+.label3{
+ left: 60px;
+  bottom: 100px;
+  
+}
+.label3 label{
+ left: -1px;
+   font-size: 20px;
+   top: -40px;
+  
+}
+.label3 input{
+padding-left: 50px;
+padding-top: 8px;
+padding-right: 0px;
+margin-left: -15px;
+}
+button{
+   left: 50px;
+    padding: 10px 60px;
+    bottom: 30px;
+}
+}
+@media(max-width:150px){
+   .sign h1{
+      left: 110px;
+      bottom: 370px;
+      font-size: 14px;
+   }
+    .sign h5{
+     left: 100px;
+     bottom: 355px;
+     font-size: 7px;
+   }
+}
+@media(max-width:202px){
+    .sign h5{
+     left: 100px;
+     bottom: 360px;
+     font-size: 7px;
+   }
+}

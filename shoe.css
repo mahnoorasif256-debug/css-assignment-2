@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Bungee&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+US+Trad+Guides&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+ body{
+background-image: url(./images/bg.jpg);
+overflow: hidden;
+}
+
+.container{
+width: 520px ;
+height:310px ;
+background-color:#212654;
+margin-left:350px ;
+margin-top: 160px;
+position:relative;
+display: flex;
+flex-direction: column;
+}
+
+.card {
+width:242px ;
+height:310px ;
+position:absolute;
+bottom:300px;
+left: 0%;
+right:10% ;
+top:0% ;
+background-color:#07e6fa;
+border-radius: 0 200px 200px 0;
+
+}
+
+.card img{
+ width:500px ;
+position: absolute;
+top:-20%; 
+left: -155px;
+transform: rotate(-25deg);
+
+} 
+ 
+.details{
+position: absolute;
+left:270px ;
+top: 15px;
+color: white;
+}
+ 
+.icon{
+position: absolute;
+left: 130px;
+top: 9px;
+}
+
+.icon2{
+position: absolute;
+left: 170px;
+top: 9px;
+}
+
+.icon3{
+position: absolute;
+left: 210px;
+top: 10px;
+}
+
+.details h2{
+ font-family: "Lobster Two", sans-serif;
+}
+
+.details h3{
+margin-top: 40px;
+font-family: sans-serif;
+font-size: large;
+font-weight: 200;
+}
+
+.details h1{
+    font-size:25px ;
+  font-family:sans-serif;
+  margin-left: -14px;
+  margin-top: 10px;
+}
+
+.price h3{
+   margin-top: 22px; 
+   font-weight:bold;
+   font-size:20px;
+}
+
+.price del { 
+    position: absolute;
+    top: 150px;
+    left: 80px;
+font-size: larger;
+text-decoration-color: red;
+}
+
+.price h4{
+   font-weight: 100; 
+   margin-top: 10px;
+   margin-left: -10px;
+}
+
+.price h5{
+ margin-top: -13px; 
+ margin-left: 50px;
+}
+
+.price .hi{
+    margin-left: 90px;
+    margin-top:-16px ;
+}
+
+.price .nin{
+    margin-left: 130px;
+    margin-top: -15px;
+}
+
+.price .tin{
+    margin-left:165px ;
+    margin-top: -16px;
+}
+
+.price .elv{
+     margin-left:200px ;
+    margin-top: -17px;
+}
+
+.price .color{
+    margin-top: 26px;
+    font-size:11px;
+    font-family:sans-serif;
+}
+
+
+.price .circle{
+    width:14px ;
+    height: 14px;
+border-radius: 7px;
+background-color: yellow;
+margin-left: 55px;
+margin-top: -15px;
+}
+
+.price .circle2{
+     width:15px ;
+    height: 15px;
+border-radius: 7px;
+background-color: rgb(237, 17, 113);
+margin-left: 98px;
+margin-top: -15px;
+}
+
+.price .circle3{
+     width:15px ;
+    height: 15px;
+border-radius: 7px;
+background-color: rgb(75, 188, 241);
+margin-left: 142px;
+margin-top: -15px;
+}
+
+.icon4{
+margin-top: 20px;
+font-size: 12px;
+margin-left: -13px;
+font-family: sans-serif;
+}
+
+.icon5{
+    margin-left: 110px;
+    font-size: 12px;
+    margin-top:-13px ;
+    font-family: sans-serif;
+}
+
+ @media(max-width:899px){
+    .container{
+/* margin-left:300px ; */
+/* margin-top: 100px; */
+}
+}
+
+@media(max-width:829px){
+   .container{ 
+margin-left:10px ;
+
+}
+}
+@media(max-width:600px){
+   .container{ 
+width: 250px ;
+height:500px ;
+margin-top: 60px;
+}
+.card {
+width:242px ;
+border-radius: 0 0px 0px 0;
+left: 2%;
+height:160px ;
+}
+.card img{
+ width:300px ;
+left: -10px;
+top:-35%; 
+}
+.details{
+left:20px ;
+top: 200px;
+}
+}
+@media(max-width:500px){
+ .container{ 
+width: 250px ;
+}   
+}
+
+ @media(max-width:604px){
+ .container{  
+margin-left:10px ;
+}   
+}
+/* 
+@media(max-width:590px){
+ .container{  
+margin-left:10px ;
+}   
+}
+@media(max-width:578px){
+ .container{  
+margin-left:10px ;
+}   
+} */
+/*

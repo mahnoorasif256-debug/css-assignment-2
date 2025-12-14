@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Bungee&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Bungee&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ccc92b;
+}
+
+.container {
+ width: 600px;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 42px;
+  position: relative;
+  z-index: 1;
+  /* padding: 10%; */
+ padding: 5%;
+
+}
+
+
+
+.card {
+  width: 275px;
+  height: 380px;
+  background-color: #f9f788;
+  position: absolute;
+  top: 8%;
+  right: 60%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      transition: all 0.3s ease-in-out;
+}
+
+
+.card img {
+  background-color: transparent;
+  width: 350px;
+  position: absolute;
+  top: 80px;
+  left: -70px;
+}
+
+.icon1 i {
+  color: white;
+  position: absolute;
+  top: 12px;
+  left: 87%;
+  background-color: #f9f788;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.icon2 i {
+  color: white;
+  position: absolute;
+  top: 12px;
+  right: 88%;
+  font-size: larger;
+  text-decoration: none;
+  background-color: #f9f788;
+}
+
+.fruits {
+  width: 275px;
+  height: 57px;
+  background-color: white;
+  position: absolute;
+  top: 348px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fruits .small {
+  width: 15%;
+  position: absolute;
+  top: 4%;
+  left: 7%;
+  margin: 2px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 2%;
+  overflow: hidden;
+
+}
+
+.fruits .smallm1 {
+  width: 15%;
+  position: absolute;
+  top: 4%;
+  left: 28%;
+  margin: 2px;
+  border: 1px solid black;
+  margin-top: 2%;
+  overflow: hidden;
+
+}
+
+.fruits .smallm2 {
+  width: 15%;
+  position: absolute;
+  top: 3%;
+  left: 49%;
+  margin: 2px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 2%;
+  overflow: hidden;
+
+}
+
+.fruits .smallm3 {
+  width: 20%;
+  position: absolute;
+  top: 8%;
+  left: 70%;
+  margin: 2px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 2%;
+  overflow: hidden;
+}
+.text h1 {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  background-color: white;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 34px;
+}
+
+.text h5 {
+  position: absolute;
+  top: 19%;
+  left: 45%;
+  background-color: white;
+  color: rgb(201, 193, 193);
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.details {
+  background-color: white;
+  position: absolute;
+  left: 280px;
+  top: 120px;
+
+}
+
+
+.details h4,
+span {
+  font-size: 28px;
+  background-color: white;
+  margin-top: 40px;
+
+}
+
+
+.details h4 {
+  display: inline-block;
+  background-color: white;
+
+}
+
+.details h2 {
+  line-height: 50px;
+  background-color: white;
+}
+
+.details li {
+  background-color: white;
+}
+
+.details h4 {
+  margin-left: 22px;
+  font-size: 60px;
+  color: red;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(255, 90, 79, 0.6) 0px 14px 28px;
+}
+button,a:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(243, 69, 57, 0.6) 0px 14px 28px;
+}
+button ,a {
+    text-decoration: none;
+    display:inline-block;
+    background:red;
+    color:#fff;
+    border:none;
+    border-radius:999px;
+    padding: 13px 24px;
+    font-size:1rem;
+    text-transform:uppercase;
+    font-weight:600;
+    cursor:pointer;
+    box-shadow:rgba(255, 90, 79, 0.35) 0px 15px 35px;
+    transition:transform 200ms ease,box-shadow 200ms ease;
+    margin-top:21px;
+    margin-left: -1px;
+   transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:600px){
+
+  .card {
+    width: 38%;
+    z-index: 1000;
+      height: 300px;
+       right: 60%;
+       flex-shrink: 2;
+       top: 1%; 
+  }
+.fruits{
+  width: 189px;
+  height: 45px;
+   top: 254px;
+}
+
+.icon1 i{
+  left: 75%;
+}
+
+.icon2 i{
+ top: 12px;
+  right: 80%;
+}
+
+.card img{
+ width: 260px;
+   left: -20px;
+}
+
+.container{
+width: 500px;
+  height: 500px;
+
+}
+}
+@media(max-width:500px){
+ .container{
+  width: 400px;
+   height: 700px;
+ } 
+
+.text h1{
+  top: 45%;
+  left: 4%;
+   font-size: 30px;
+}
+.text h5{
+  top: 50%;
+  left: 4%;
+}
+.details{
+    left: 250px;
+  top: 350px;
+}
+.details h4,
+span{
+    margin-top: 0px;
+     font-size: 20px;
+}
+.text .details{
+  left: 18px;
+}
+.card{
+    width: 50%;
+}
+
+}
+@media(max-width:558px){
+  button{
+     font-size: 9px;
+  padding: 10px 30px;
+   margin-top: 3px;
+  margin-left: 0px;
+  }
+   button, a{
+     font-size: 9px;
+  padding: 10px 30px;
+   margin-top: 3px;
+  margin-left: 0px;
+  }
+}
+@media(max-width:465px){
+.container{
+    width: 200px;
+}
+.card{
+    width: 99%;
+}
+}
+@media(max-width:489px){
+.details{
+  top: 380px;
+}
+}
+@media(max-width:560px){
+.fruits{
+  width: 199px;
+  height: 45px;
+   top: 254px;
+}
+.card img{
+   width: 230px;
+}
+}
+@media(max-width:314px){
+  .card{
+        right: 1%;
+  }
+}
+@media(max-width:452px){
+   .card{
+       right: 1%;
+       top: 0;
+  }
+}
+
+  @media(max-width:600px){
+
+.container{
+  display: flex;
+flex-shrink: 4;
+}
+} 

@@ -1,0 +1,161 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body {
+    height: 100%;
+background: linear-gradient(#0d2d44);
+}
+.box{
+width: 400px;
+height: 200px;
+margin: 0 auto;
+margin-top: 100px;
+margin-left: 220px;
+border-radius: 20px;
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.box h1{
+font-size: 40px;
+color: azure;
+text-align: center;
+padding-top: 30px;
+font-family: sans-serif;
+}
+
+.box .card-icon{
+    font-size:60px;
+    text-align: center;
+    padding-top: 20px;
+    color: azure;
+}
+
+.box a{
+    text-decoration: none;
+    
+}
+
+.two {
+    width: 400px;
+height: 200px;
+
+margin: 0 auto;
+margin-top: -160px;
+margin-left: 420px;
+border-radius: 20px;
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.two h1{
+font-size: 40px;
+color: azure;
+text-align: center;
+padding-top: 30px;
+font-family: sans-serif;
+}
+
+.three {
+    width: 400px;
+height: 200px;
+
+margin: 0 auto;
+margin-top: 15px;
+margin-left:1px;
+border-radius: 20px;
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.three .mdn{
+    text-align: center;
+    padding-top: 60px;
+  
+}
+
+.four {
+    width: 400px;
+height: 200px;
+
+margin: 0 auto;
+margin-top: -195px;
+margin-left:420px;
+border-radius: 20px;
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.four h1{
+  font-size: 40px;
+color: azure;
+text-align: center;
+padding-top: 30px;
+font-family: sans-serif;  
+}
+
+.card-icon i:hover{
+    transform:translateY(2px);
+    color:#fff;
+}
+
+@media(max-width:654px){
+.box{
+   width: 300px;
+   margin-top: 10px;
+       margin-left: 20px;
+    transform:translateY(40px);
+}
+.box h1{
+    font-size: 30px;
+}
+.two{
+    width:300px; 
+    margin-left: 2px; 
+    margin-top: 60px;
+}
+.two h1{
+    font-size: 30px;
+} 
+.three{
+    width: 300px;  
+    margin-top: 10px;
+}
+.three .mdn{
+    font-size: 30px;
+}
+.four{
+    width:300px;  
+    margin-left:4px;
+margin-top: 20px;
+}
+.four h1{
+    font-size: 30px;
+}
+}
+@media(max-width:282px){
+.box{
+   width: 200px;
+    margin-left: 10px;
+}
+
+.two{
+    width: 200px;
+    margin-left: 10px;  
+}
+ 
+.three{
+    width: 200px;
+    margin-left: 10px;
+}
+.four{
+   width: 200px;
+    margin-left: 10px;  
+}
+}
+@media(max-width:700px){
+.box{
+    margin-left: 20px;
+}
+}
